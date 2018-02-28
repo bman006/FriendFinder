@@ -7,9 +7,4 @@ module.exports = function(app) {
     app.get("/api/friends", function(req, res) {
         res.json(friendList);
     });
-
-    //Add data
-    app.post("/api/add", function(req, res) {
-        
-    })
 }

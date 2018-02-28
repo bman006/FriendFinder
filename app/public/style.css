@@ -1,0 +1,21 @@
+body {
+    margin-bottom: 100px;
+}
+
+.survey-box {
+    text-align: center;
+}
+
+.survey-answer.active, .survey-answer.focus {
+    background-color: rgb(35, 167, 94);
+}
+
+.survey-answer-text {
+    padding: 0 30px 0 30px;
+    position: relative;
+    top: 12px;
+}
+
+.survey-line {
+    display: inline-block;
+}
