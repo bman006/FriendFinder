@@ -19,3 +19,6 @@ body {
 .survey-line {
     display: inline-block;
 }
+#incomplete-alert {
+    color: red;
+}
