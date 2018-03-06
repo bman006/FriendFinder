@@ -12,4 +12,8 @@ module.exports = function(app) {
     app.get("/api/survey", function(req, res) {
         res.json(questions);
     });
+
+    app.post("/api/newFriend", function(req, res) {
+        friendList.push(req.body);
+    });
 }

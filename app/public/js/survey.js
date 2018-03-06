@@ -98,9 +98,14 @@ function findBestFriend(newFriend) {
             }
         }
 
-        sendNewFriendToServer(newFriend);
+//UNFINISHED STUFF HERE
+        //Need to add code for this to be a modal, and not just a console log
+        console.log(friends[bestFriend.closestIndex]);
+//UNFINISHED STUFF HERE
+
+        sendNewFriendToServer(friends, newFriend);
     });
 }
-function sendNewFriendToServer(newFriend) {
-
+function sendNewFriendToServer(friends, newFriend) {
+    $.post(`/api/newFriend`, newFriend);
 }
